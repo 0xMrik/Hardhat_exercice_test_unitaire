@@ -1,6 +1,6 @@
 # Voting Contract Test Suite
 
-This is the test suite for the Voting smart contract. It uses Hardhat and the Chai testing library.
+This is the test suite for the Voting.sol smart contract. It uses Hardhat and the Chai testing library.
 
 ## Installation
 
@@ -28,10 +28,12 @@ The following functions of the Voting contract are tested:
 
 The test suite has the following result : 
 
-- Statements: 100%
-- Branches: 89.29%
-- Functions: 100%
-- Lines: 100%
+| File        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Lines |
+|-------------|---------|----------|---------|---------|-----------------|
+| contracts/  | 100     | 89.29    | 100     | 100     |                 |
+| Voting.sol  | 100     | 89.29    | 100     | 100     |                 |
+| All files   | 100     | 89.29    | 100     | 100     |                 |
+
 
 the test ether-gas-report has the following result : 
 
